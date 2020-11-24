@@ -12,4 +12,6 @@ function fly(direction:string){
     console.log(direction)
     var x: string = window.getComputedStyle(img).left.replace('px', '');
     var y: string = window.getComputedStyle(img).top.replace('px','');
+    var valueX:number = parseInt(x);
+    var valueY:number = parseInt(y);
 }
